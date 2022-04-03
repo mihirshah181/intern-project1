@@ -49,33 +49,33 @@ function PaientsList() {
               <div className="col-md-1">
                 <span>Phone Number</span>
                 <br></br>
-                <span>{person.PhoneNumber}</span>
-              </div>
+                <span>{person["Phone Number"]}</span>
+              </div> 
             </div>
             <div className="row">
               <div className="col-md-4">
                 <span>Street Address</span>
                 <br></br>
-                {/* <span>{person.StreetAddress}</span> */}
+                <span>{person["Street Address"]}</span>
               </div>
 
               <div className="col-md-2">
                 <span>Zip Code</span>
                 <br></br>
-                <span>{person.ZIPCode}</span>
+                <span>{person["ZIP Code"]}</span>
               </div>
             </div>
             <div className="row">
               <div className="col-md-4">
                 <span>Member Status</span>
                 <br></br>
-                <span>{person.MemberStatus}</span>
+                <span>{person["Member Status"]}</span>
               </div>
 
               <div className="col-md-2">
                 <span>Register Date</span>
                 <br></br>
-                <span>{person.RegisterDate}</span>
+                <span>{person["Register Date"]}</span>
               </div>
             </div>
           </div>
