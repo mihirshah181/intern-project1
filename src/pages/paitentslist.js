@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { AiOutlineVerticalAlignBottom } from "react-icons/ai";
+
 
 
 function PaientsList() {
@@ -16,7 +16,7 @@ function PaientsList() {
       <div className="conatiner-fluid mx-auto mt-4 border border-dark w-50 rounded">
         <div className="row justify-content-center ">
           <div className="col-md-3">
-            <img src="C:\Users\mihir\Downloads\react-sidebar-v1-master\Internship 1\public\icon.jpeg"></img>
+           
             <h3 className="mt-4">{person.name}</h3>
             <span style = {{"margin-left": "1rem", "font-size": "12px"}}>dainacooper@gamil.com</span>
             <div className="row"style = {{"margin-top": "25px", "margin-bottom": "16px"}}>
